@@ -1,3 +1,5 @@
 this is the first text document
-changes made 
+changes made ///
 to commit directly we do git commit -a -m "commit message"
+git diff : only the diff between file before modified and after modified (unstaged same files only)
+git diff --staged : shows diff between staged files (same files)

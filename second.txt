@@ -1,1 +1,2 @@
+this is to show how diff command works in git
 git diff
