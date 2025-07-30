@@ -1,1 +1,3 @@
 this is the first text document
+changes made 
+to commit directly we do git commit -a -m "commit message"
