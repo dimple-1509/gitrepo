@@ -9,4 +9,10 @@ delete at staging area : git rm -f <file name>
 staged -> unstaged = git restore --staged <file name>
 modified -> unmodified = git restore <file name>
 tracked -> untracked = git rm --cached <file name>
+log functions :
+git log shows all commit history 
+git log -p = diff b/w the commits
+git log --since=<date>
+git log --pretty=format"format words"
+git log help = helps to know all git functioning
  
