@@ -6,3 +6,7 @@ git diff --staged : shows diff between staged files (same files)
 renaming file : git mv <original file name> <changed file name>
 delete file after committed : git rm <file name>
 delete at staging area : git rm -f <file name>
+staged -> unstaged = git restore --staged <file name>
+modified -> unmodified = git restore <file name>
+tracked -> untracked = git rm --cached <file name>
+ 
