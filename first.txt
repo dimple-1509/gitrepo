@@ -15,4 +15,6 @@ git log -p = diff b/w the commits
 git log --since=<date>
 git log --pretty=format"format words"
 git log help = helps to know all git functioning
+to create shortforms of any command use 
+git config --global alias.<short cut command> actual command
  
