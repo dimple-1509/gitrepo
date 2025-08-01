@@ -17,4 +17,5 @@ git log --pretty=format"format words"
 git log help = helps to know all git functioning
 to create shortforms of any command use 
 git config --global alias.<short cut command> actual command
- 
+to add a file from local(our computer to git) follow this command git remote add origin and then the url from github (repo created of same name)
+then do git push origin main to push it in github
