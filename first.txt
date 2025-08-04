@@ -20,3 +20,9 @@ git config --global alias.<short cut command> actual command
 to add a file from local(our computer to git) follow this command git remote add origin and then the url from github (repo created of same name)
 then do git push origin main to push it in github
 git pull origin main : to make changes made in repo at github to reflect on our local system that is git
+to create branch, rename, delete check current one 
+new branch : git checkout -b <branch name>
+rename : git branch -m <old branch name> <new branch name> [if not used old branch name new branch will be created]
+delete : git branch -d <branch to delete>
+to check : git branch
+
