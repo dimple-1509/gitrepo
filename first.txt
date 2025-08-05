@@ -25,4 +25,6 @@ new branch : git checkout -b <branch name>
 rename : git branch -m <old branch name> <new branch name> [if not used old branch name new branch will be created]
 delete : git branch -d <branch to delete>
 to check : git branch
+for merging branch in git 
+git merge <branch name> [to solve conflicts we have choose among the current and incoming changes between files]
 
