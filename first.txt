@@ -26,5 +26,5 @@ rename : git branch -m <old branch name> <new branch name> [if not used old bran
 delete : git branch -d <branch to delete>
 to check : git branch
 for merging branch in git 
-git merge <branch name> [to solve conflicts we have choose among the current and incoming changes between files]
+git merge <branch name> [to solve conflicts we have choose among the current and incoming changes between files] [one time changes if we want oyr further changes to reflect we have to keep merging]
 
