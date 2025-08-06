@@ -23,7 +23,7 @@ git pull origin main : to make changes made in repo at github to reflect on our 
 to create branch, rename, delete check current one 
 new branch : git checkout -b <branch name>
 rename : git branch -m <old branch name> <new branch name> [if not used old branch name new branch will be created]
-delete : git branch -d <branch to delete>
+delete : git branch -d <branch to delete> force delete : git branch -D <branch name>
 to check : git branch
 for merging branch in git 
 git merge <branch name> [to solve conflicts we have choose among the current and incoming changes between files] [one time changes if we want oyr further changes to reflect we have to keep merging]
