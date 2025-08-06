@@ -27,4 +27,6 @@ delete : git branch -d <branch to delete> force delete : git branch -D <branch n
 to check : git branch
 for merging branch in git 
 git merge <branch name> [to solve conflicts we have choose among the current and incoming changes between files] [one time changes if we want oyr further changes to reflect we have to keep merging]
+to check the last commit of branches = git branch -v
+to check which branches are merged = git branch --merged not merged = git branch --no-merged
 
