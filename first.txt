@@ -29,4 +29,4 @@ for merging branch in git
 git merge <branch name> [to solve conflicts we have choose among the current and incoming changes between files] [one time changes if we want oyr further changes to reflect we have to keep merging]
 to check the last commit of branches = git branch -v
 to check which branches are merged = git branch --merged not merged = git branch --no-merged
-
+if a pull request is created on github for merging branches In github and to make those merged changes appear on our local system we use "GIT PULL ORIGIN MAIN"
