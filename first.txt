@@ -1,32 +1,31 @@
 this is the first text document
-changes made ///
-to commit directly we do git commit -a -m "commit message"
-git diff : only the diff between file before modified and after modified (unstaged same files only)
-git diff --staged : shows diff between staged files (same files)
-renaming file : git mv <original file name> <changed file name>
-delete file after committed : git rm <file name>
-delete at staging area : git rm -f <file name>
-staged -> unstaged = git restore --staged <file name>
-modified -> unmodified = git restore <file name>
-tracked -> untracked = git rm --cached <file name>
-log functions :
-git log shows all commit history 
-git log -p = diff b/w the commits
-git log --since=<date>
-git log --pretty=format"format words"
-git log help = helps to know all git functioning
-to create shortforms of any command use 
-git config --global alias.<short cut command> actual command
-to add a file from local(our computer to git) follow this command git remote add origin and then the url from github (repo created of same name)
-then do git push origin main to push it in github
-git pull origin main : to make changes made in repo at github to reflect on our local system that is git
-to create branch, rename, delete check current one 
-new branch : git checkout -b <branch name>
-rename : git branch -m <old branch name> <new branch name> [if not used old branch name new branch will be created]
-delete : git branch -d <branch to delete> force delete : git branch -D <branch name>
-to check : git branch
-for merging branch in git 
-git merge <branch name> [to solve conflicts we have choose among the current and incoming changes between files] [one time changes if we want oyr further changes to reflect we have to keep merging]
-to check the last commit of branches = git branch -v
-to check which branches are merged = git branch --merged not merged = git branch --no-merged
-if a pull request is created on github for merging branches In github and to make those merged changes appear on our local system we use "GIT PULL ORIGIN MAIN"
+1.to commit directly we do git commit -a -m "commit message"
+2.git diff : only the diff between file before modified and after modified (unstaged same files only)
+  git diff --staged : shows diff between staged files (same files)
+3.renaming file : git mv <original file name> <changed file name>
+4.delete file after committed : git rm <file name>
+  delete at staging area : git rm -f <file name>
+5.staged -> unstaged = git restore --staged <file name>
+6.modified -> unmodified = git restore <file name>
+7.tracked -> untracked = git rm --cached <file name>
+8.log functions :
+  git log shows all commit history 
+  git log -p = diff b/w the commits
+  git log --since=<date>
+  git log --pretty=format"format words"
+  git log help = helps to know all git functioning
+9.to create shortforms of any command use 
+  git config --global alias.<short cut command> actual command
+10.to add a file from local(our computer to git) follow this command git remote add origin and then the url from github (repo created of same name)
+   then do git push origin main to push it in github
+11.git pull origin main : to make changes made in repo at github to reflect on our local system that is git
+12.to create branch, rename, delete check current one 
+   new branch : git checkout -b <branch name>
+   rename : git branch -m <old branch name> <new branch name> [if not used old branch name new branch will be created]
+   delete : git branch -d <branch to delete> force delete : git branch -D <branch name>
+   to check : git branch
+13.for merging branch in git 
+   git merge <branch name> [to solve conflicts we have choose among the current and incoming changes between files] [one time changes if we want oyr further changes to          reflect we have to keep merging]
+14.to check the last commit of branches = git branch -v
+15.to check which branches are merged = git branch --merged not merged = git branch --no-merged
+16.if a pull request is created on github for merging branches In github and to make those merged changes appear on our local system we use "GIT PULL ORIGIN MAIN"
